@@ -9,7 +9,7 @@ internal class Program {
 	{
 		// we wanna simplify the code.
 		// step three.
-		var a = doIt().Result; // if we dont do this results will never being written.
+		Task.WaitAll(doIt());
 	}
 
 	static async Task<bool> doIt() 
