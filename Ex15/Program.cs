@@ -9,7 +9,7 @@ internal class Program {
 	{
 		// we wanna simplify the code.
 		// step two.
-		doIt();
+		doIt(); //we dont wait to doIt func finish its works its asyncronous.
 		Thread.Sleep(1000);
 	}
 	/*
